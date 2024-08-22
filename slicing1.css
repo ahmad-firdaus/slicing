@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 body, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 
 }
 body{
     padding: 60px;
+    font-family: "Roboto Mono", monospace;
 }
 
 .container {
@@ -14,17 +17,6 @@ body{
     /* padding: 75px;
     padding: 60px; */
     margin-top: 50px;
-}
-
-.text-container{
-    display: flex;
-    color: #333;
-    font-family: "Roboto Mono";
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 74px; /* 123.333% */
-    
 }
 main{
     display: flex;
@@ -84,6 +76,7 @@ main{
 }
 h2{
     align-items: start;
+    color: white;
 }
 
 .item {
@@ -197,3 +190,17 @@ button {
     right: 150px;
 }
 
+@media screen and (max-width: 640px) {
+    main {
+        flex-direction: column;
+    }
+    .image-content {
+        width: 100%;
+        order: -1;
+        margin-bottom: 50px;
+    }
+    .container {
+        flex-direction: column;
+    }
+  
+}
