@@ -1,0 +1,199 @@
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+
+}
+body{
+    padding: 60px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    /* padding: 75px;
+    padding: 60px; */
+    margin-top: 50px;
+}
+
+.text-container{
+    display: flex;
+    color: #333;
+    font-family: "Roboto Mono";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px; /* 123.333% */
+    
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.image-content {
+    position: relative;
+    border: 2px dashed black;
+    width: 50%;
+    /* height: fit-content; */
+}
+.image-content img {
+    aspect-ratio: 16 / 10;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.image-content .play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.square {
+    width: 24px;
+    height: 24px;
+    border: 2px solid black;
+    position: absolute;
+    background-color: white;
+}
+.square-1 {
+    top: -12px;
+    left: -12px;
+}
+
+.square-2 {
+    top: -12px;
+    right: -12px;
+}
+
+.square-3 {
+    bottom: -12px;
+    left: -12px;
+}
+
+.square-4 {
+    bottom: -12px;
+    right: -12px;
+}
+
+.mid {
+    display: flex;
+    width: 100%;
+    background-size: cover;
+    padding: 10px;
+    gap: 20px;
+}
+h2{
+    align-items: start;
+}
+
+.item {
+    /* width: 50px;
+    height: 30px; */
+    align-items: end;
+    background-size: cover;
+    padding: 34px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    position: relative;
+}
+.item-1 {
+    background-color: rgb(237, 216, 110);
+}
+
+.item-2 {
+    background-color: rgb(206, 110, 174);
+    /* width: 50px;
+    height: 30px;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; */
+}
+
+.item-3 {
+    background-color: rgb(53, 167, 184);
+    /* width: 50px;
+    height: 30px;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; */
+}
+
+.item-4 {
+    background-color: rgb(89, 109, 220);
+    /* width: 50px;
+    height:30px;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; */
+}
+
+.item img {
+    width: 32px;
+    aspect-ratio: 1;
+    border-radius: 9999px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+button {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 50px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+}
+
+
+.click {
+    position: absolute;
+    width: 62px;
+    height: 61.999px;
+    flex-shrink: 0;
+    right: 40px;
+    bottom: -38px;   
+}
+
+.star {
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    flex-shrink: 0;
+    top: 20px;
+    left: 80px;
+}
+
+.spiral {
+    position: absolute;
+    width: 119px;
+    height: 254px;
+    /* transform: rotate(43.685deg);  */
+    flex-shrink: 0;
+    top: 10px;
+    left: 20px;
+    right: 40px;
+    
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.light {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    flex-shrink: 0;
+    top: 250px;
+    right: 150px;
+}
+
